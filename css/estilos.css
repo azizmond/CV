@@ -88,6 +88,15 @@ body {
 	padding-left: 8px;
 }
 
+#user-table a {
+	text-decoration: none;
+}
+
+#user-table a:visited {
+	text-decoration: none;
+	color: #F6F6F6;
+}
+
 .language {
 	font-size: 20px;
 	text-align: right;
@@ -117,8 +126,14 @@ body {
 	font-weight: bolder;
 }
 
-.training {
-	width: 200px;
+#training {
+	width: 201px;
+	margin-bottom: 3px;
+	padding: 5px;
+}
+
+#institucion {
+	width: 189px;
 	margin-bottom: 3px;
 	padding: 5px;
 }

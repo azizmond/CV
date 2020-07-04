@@ -1,0 +1,129 @@
+body {
+	background-color: #29303B;
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+}
+
+.tile {
+	width: 200px;
+	height: 170px;
+	margin: 5px;
+	padding: 20px;
+	float: left;
+}
+
+.naranja {
+	background-color: #F4AF55;
+}
+
+.verde {
+	background-color: #0FAE9D;
+}
+
+.listas li {
+	list-style-type: disc;
+	list-style-position: inside;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: normal;
+	padding: 2px;
+}
+
+.listas li a {
+	color: white	;
+	text-decoration: none;
+}
+
+.rojo {
+	background-color: #EB674C;
+}
+
+.gris {
+	background-color: #F6F6F6;
+}
+
+.tile-doble {
+	width: 450px;
+	height: 170px;
+	margin: 5px;
+	padding: 20px;
+	float: left;
+}
+
+.personal-photo {
+	background-image: url(personal_photo.jpg);
+	font-style: italic;
+	font-size: 23px;
+	text-shadow: 0px 0px 5px #29303B;
+	text-align: right;
+}
+
+.paragraph {
+	margin-top: 80px;
+}
+
+#main-container {
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 20px auto;
+}
+
+#user-table {
+	margin: 10px auto;
+	font-weight: normal;
+	width: 100%;
+}
+
+#user-table th {
+	border-bottom: 1px solid #F6F6F6;
+	padding: 4px;
+	text-align: center;
+}
+
+#user-table td {
+	font-size: 12px;
+	padding: 4px;
+	text-align: center;
+	padding-left: 8px;
+}
+
+.language {
+	font-size: 20px;
+	text-align: right;
+	color: #29303B;
+}
+
+.level {
+	font-size: 14px;
+	text-align: right;
+	color: #29303B;
+}
+
+.xp-task {
+	font-size: 24px;
+	font-style: italic;
+	padding: 10px;
+}
+
+.xp-text {
+	margin-top: 30px;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.xp-text span {
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+.training {
+	width: 200px;
+	margin-bottom: 3px;
+	padding: 5px;
+}
+
+h2 {
+	margin-bottom: 7px;
+	font-size: 20px;
+}

@@ -30,6 +30,11 @@ body {
 	padding: 2px;
 }
 
+.listas li span {
+	font-weight: bold;
+	font-size: 17px;
+}
+
 .listas li a {
 	color: white	;
 	text-decoration: none;
@@ -40,6 +45,7 @@ body {
 }
 
 .gris {
+	color: #29303B;
 	background-color: #F6F6F6;
 }
 
@@ -88,15 +94,6 @@ body {
 	padding-left: 8px;
 }
 
-#user-table a {
-	text-decoration: none;
-}
-
-#user-table a:visited {
-	text-decoration: none;
-	color: #F6F6F6;
-}
-
 .language {
 	font-size: 20px;
 	text-align: right;
@@ -121,6 +118,18 @@ body {
 	font-weight: normal;
 }
 
+.xp-text a {
+	text-decoration: none;
+}
+
+.xp-text a:visited {
+	color: #F6F6F6;
+}
+
+.xp-text a:link {
+	color: #F6F6F6;
+}
+
 .xp-text span {
 	font-size: 45px;
 	font-weight: bolder;
@@ -141,4 +150,20 @@ body {
 h2 {
 	margin-bottom: 7px;
 	font-size: 20px;
+}
+
+.nueva-listas li {
+	list-style-type: circle;
+	list-style-position: inside;
+	font-size: 15px;
+	padding: 2px;
+}
+
+.worktg-photo {
+	background-image: url(casino-350.jpg);
+}
+
+.workcts-photo {
+	background-image: url(network-350.jpg);
+	margin: auto;
 }

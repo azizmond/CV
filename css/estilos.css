@@ -13,6 +13,14 @@ body {
 	float: left;
 }
 
+.tile-doble {
+	width: 450px;
+	height: 170px;
+	margin: 5px;
+	padding: 20px;
+	float: left;
+}
+
 .naranja {
 	background-color: #F4AF55;
 }
@@ -30,11 +38,6 @@ body {
 	padding: 2px;
 }
 
-.listas li span {
-	font-weight: bold;
-	font-size: 17px;
-}
-
 .listas li a {
 	color: white	;
 	text-decoration: none;
@@ -49,24 +52,23 @@ body {
 	background-color: #F6F6F6;
 }
 
-.tile-doble {
-	width: 450px;
-	height: 170px;
-	margin: 5px;
-	padding: 20px;
-	float: left;
+.workExperience{
+	background-color: #F6F6F6;
+	color: #F6F6F6;
+	text-shadow: 1px 1px 3px #29303B;
+	font-size: 40px;
+	text-align: right;
 }
 
 .personal-photo {
 	background-image: url(personal_photo.jpg);
 	font-style: italic;
-	font-size: 23px;
-	text-shadow: 0px 0px 5px #29303B;
-	text-align: right;
 }
 
-.paragraph {
-	margin-top: 80px;
+.paragraph a {
+	float: left;
+	color: #06D755;
+	font-size: 50px;
 }
 
 #main-container {
@@ -92,6 +94,20 @@ body {
 	padding: 4px;
 	text-align: center;
 	padding-left: 8px;
+}
+
+#user-table td a {
+	text-decoration: none;
+}
+
+#user-table td a:link {
+	color: white	;
+	text-decoration: none;
+}
+
+#user-table td a:visited {
+	color: white	;
+	text-decoration: none;
 }
 
 .language {
@@ -127,6 +143,12 @@ body {
 }
 
 .xp-text a:link {
+	box-shadow: 2px 2px 3px #E59834;
+	color: #F6F6F6;
+}
+
+.xp-text a:hover {
+	box-shadow: -2px -2px 3px #E59834;
 	color: #F6F6F6;
 }
 
@@ -141,9 +163,9 @@ body {
 	padding: 5px;
 }
 
-#institucion {
-	width: 189px;
-	margin-bottom: 3px;
+#result {
+	width: 183px;
+	margin-top: 3px;
 	padding: 5px;
 }
 
@@ -165,5 +187,23 @@ h2 {
 
 .workcts-photo {
 	background-image: url(network-350.jpg);
-	margin: auto;
+}
+
+.workac-photo {
+	background-image: url(travel-350.jpg);
+}
+
+.worktt-photo {
+	background-image: url(code-350.jpg);
+}
+
+.back {
+	float: right;
+	background: #29303B;
+	color: white;
+	padding: 10px;
+	font-size: 50px;
+	text-align: center;
+	border: none;
+	position: fixed;
 }

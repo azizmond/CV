@@ -5,6 +5,7 @@
 	<title>Curriculun Vitae</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="https://kit.fontawesome.com/7945bf13cf.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div id="main-container">
@@ -22,14 +23,14 @@
 		<div class="tile naranja">
 			<div>Experiencia</div>
 			<div class="xp-task">QA Manual y Automation</div>
-			<div class="xp-text"><a href="experiencia.html">Años de experiencia</a> <span>13</span></div>
+			<div class="xp-text"><a href="experiencia.html"> Años de experiencia </a> <span>13</span></div>
 		</div>
 		<div class="tile rojo">
 			<h2>Formación</h2>
 			<ul class="listas">
 				<li>Educación Secundaria <em>EET N° 3 - Manuel Belgrano</em></li>
 				<li>Titulo obtenido <em>Maestro Mayor de Obras</em></li>
-				<li>Educación Universitaria 2004/Abandonado</li>
+				<li>Educación Universitaria 2004/Inconcluso</li>
 				<li><em>Universidad Nacional de La Matanza</em></li>
 			</ul>
 		</div>
@@ -63,7 +64,7 @@
 							10 / 2018
 						</td>
 						<td>
-							Teceng-Gaming
+							<a href="experiencia.html#TG">Teceng-Gaming</a> 
 						</td>
 						<td>
 							Actual
@@ -74,7 +75,7 @@
 							10 / 2017
 						</td>
 						<td>
-							Cognizant Technology Solutions
+							<a href="experiencia.html#CG">Cognizant Technology Solutions</a> 
 						</td>
 						<td>
 							10 / 2018
@@ -85,7 +86,7 @@
 							04 / 2012
 						</td>
 						<td>
-							Assist Card
+							<a href="experiencia.html#AC">Assist Card</a>
 						</td>
 						<td>
 							06 / 2017
@@ -96,7 +97,7 @@
 							05 / 2011
 						</td>
 						<td>
-							Teletech
+							<a href="experiencia.html#TT">Teletech</a>
 						</td>
 						<td>
 							04 / 2012
@@ -107,7 +108,7 @@
 							09 / 2010
 						</td>
 						<td>
-							Globant
+							<a href="experiencia.html#GL">Globant</a>
 						</td>
 						<td>
 							05 / 2011
@@ -118,7 +119,7 @@
 							06 / 2007
 						</td>
 						<td>
-							Pragma Consultores
+							<a href="experiencia.html#PC">Pragma Consultores</a>
 						</td>
 						<td>
 							09 / 2010
@@ -132,26 +133,26 @@
 			<form>
 				<select id="training">
 					<option selected>Seleccione capacitación</option>
-					<option>CCNA</option>
-					<option>SQL La esencia</option>
-					<option>Taller de estimaciones</option>
-					<option>Taller de Liderazgo Eficaz</option>
-					<option>Taller de Project Magement</option>
-					<option>Programación Integral PHP</option>
-					<option>Automat. Selenium Webdriver</option>
-					<option>Java para no programadores</option>
-					<option>Introd. Paradigma de Objetos</option>
+					<option value="1">CCNA</option>
+					<option value="2">SQL La esencia</option>
+					<option value="3">Taller de estimaciones</option>
+					<option value="3">Taller de Liderazgo Eficaz</option>
+					<option value="3">Taller de Project Magement</option>
+					<option value="4">Programación Integral PHP</option>
+					<option value="5">Automat. Selenium Webdriver</option>
+					<option value="6">Java para no programadores</option>
+					<option value="6">Introd. Paradigma de Objetos</option>
 				</select>
-				<input id="institucion" type="text" placeholder="Institucion">
+				<input id="searchBtn" type="button" value="Buscar"> <br>
+				<input id="result" type="label" name="" readonly>
 			</form>
 		</div>
 		<div  class="tile personal-photo">
 			<div class="paragraph">
-				<p>Dirección</p>
-				<p>del Campillo 1303</p>
-				<p>Ramos Mejía</p>
+				<a href="https://api.whatsapp.com/send?phone=5491130753095&text=Hola!%20Quiero%20acercarte%20una%20propuesta" target="_blank"><i class="fab fa-whatsapp"></i></a>
 			</div>
 		</div>
 	</div>
+	<script src="js/training.js"></script>
 </body>
 </html>
